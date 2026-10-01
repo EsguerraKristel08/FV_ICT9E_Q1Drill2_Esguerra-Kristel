@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+            font-family: cursive;
+            background-color: rgb(253, 88, 88);
+        }
+        header{
+            text-align: center;
+        }
+        section{
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        input[type="text"], select, textarea,  input[type="submit"] {
+            width: 94%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto;
+            height: 100px;
+            width: 100px;
+            padding: 0px;
+        }
+        input[type="submit"]{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RATE A MOVIE</h1>
+        <br>
+        <p>Recommend us the best movie you could ever imagine!</p>
+    </header>
+    <br>
+
+    <section>
+        <form action="">
+            <img src="https://stock.adobe.com/search?k=movie+film" alt="logo">
+            <br>
+
+            <label for="Movie">Movie Title</label>
+            <br>
+
+            <input type="text" id="movie" name="movie" placeholder="Enter here">
+
+            <br>
+
+            <label for="">Genre/s</label>
+            <br>
+            <input type="checkbox" id="genre1" name="genre">
+            <label for="">Action</label>
+            <input type="checkbox" id="genre2" name="genre">
+            <label for="genre2">Comedy</label>
+            <input type="checkbox" id="genre3" name="genre">
+            <label for="genre3">Drama</label>
+            <input type="checkbox" id="genre4" name="genre">
+            <label for="genre4">Horror</label>
+            <input type="checkbox" id="genre5" name="genre">
+            <label for="genre5">Fiction and/or Fantasy</label>
+            <input type="checkbox" id="genre6" name="genre">
+            <label for="genre6">Romance</label>
+            <input type="checkbox" id="genre7" name="genre">
+            <label for="genre7">Thriller</label>
+        
+
+            <br>
+            <label for="rating">Rating</label>
+            <br>
+            <input type="radio" id="rate1" name="rate">
+            <label for="rate1">⭐️</label>
+            <input type="radio" id="rate1" name="rate">
+            <label for="rate2">⭐️⭐️</label>
+            <input type="radio" id="rate1" name="rate">
+            <label for="rate3">⭐️⭐️⭐️</label>
+            <input type="radio" id="rate1" name="rate">
+            <label for="rate4">⭐️⭐️⭐️⭐️</label>
+            <input type="radio" id="rate1" name="rate">
+            <label for="rate5">⭐️⭐️⭐️⭐️⭐️</label>
+
+            <br>
+            <textarea id="review" placeholder="Write a review here.." rows="4" cols="40"></textarea>
+            <br>
+
+            <input type="submit" id="submit" value="Submit Review">
+            <br>
+
+            Click <a href="" target="">here</a> for the guide in making a review.
+
+        </form>
+    </section>
+
+    <!--References
+    https://stock.adobe.com/search?k=movie+film-->
+</body>
+</html>
